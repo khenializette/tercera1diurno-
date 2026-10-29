@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi sitio</title>
-    <link rel=""stylesheet" href="estilos.css">
-</head>
+    <title>gym alajuela</title>
+<link rel="stylesheet" href="css/estilos.css">
+  </head>
 <body>
 
 <header class="header">
@@ -28,7 +28,7 @@
 
 </header>
 
-<main>
+<main class="contenedor">
   <section class ="portada">
     <h1>Nosotros</h1>
     <p> Somos una empresa dedicada a proporcionar los mejores servicios en el mercado.</p>
@@ -37,12 +37,25 @@
 
 <section class =" servicios">
     <h2> Nuestros servicios</h2>
-    <p> Ofrecemos una amplia gama de servicios de calidad para satisfacer las necesidades de nuestros clientes.</p>
-    <ul>
-      <li> lavado</li>
-      <li> aseo</li>
-      <li> mantenimiento</li>
-    </ul>
+<div class="cards" id="cards">
+
+  <article class="tarjeta">
+<img src="img/imagen1.jpg" alt="Servicio 1">
+<h3>titulo del servicio 1</h3>
+<p>Descripción breve del servicio 1.</p>
+<a href="servicios.html" class="boton">Ver más</a>
+
+  </article>
+
+<article class="tarjeta">
+<img src="img/imagen2.jpg" alt="Servicio 2">
+<h3>titulo del servicio 2</h3>
+<p>Descripción breve del servicio 2.</p>
+<a href="servicios.html" class="boton">Ver más</a>
+
+  </article>
+
+</div>
 </section>
 
 <section class="galeria">
@@ -55,7 +68,29 @@
     </div>
 </section>
 
+<section class="preguntas">
+<h2> Preguntas frecuentes</h2>
+<div class="acordion">
+  <div class="item">
+    <button class="titulo">¿Pregunta 1?</button>
+   <div class="contenido"><p>respuesta 1</p></div>
+  </div>
+
+   <div class="item">
+    <button class="titulo">¿Pregunta 2?</button>
+   <div class="contenido"><p>respuesta 2</p></div>
+  </div>
+
+   <div class="item">
+    <button class="titulo">¿Pregunta 3?</button>
+   <div class="contenido"><p>respuesta 3</p></div>
+  </div>
+</div>
+
+</section>
+
 </main>
+
 <footer>
   <div>
     <p><strong>Mi sitio</strong></p>
