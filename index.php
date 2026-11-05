@@ -8,25 +8,7 @@
   </head>
 <body>
 
-<header class="header">
-  <a href="index.html" class="logo">Mi Sitio</a>
- <button class=" hamburguesa" id="btnmenu">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
-
-<nav class=" menu" id="menu">
-<ul>
-  <li> <a href="index.html">Inicio</a></li>
-  <li> <a href="nosotros.html">Sobre nosotros</a></li>
-  <li> <a href="servicios.html">Servicios</a></li>
-  <li> <a href="contacto.html">Contacto</a></li>
-</ul>
-
-</nav>
-
-</header>
+<?php include "header.php"; ?>
 
 <main class="contenedor">
   <section class ="portada">
@@ -39,24 +21,9 @@
     <h2> Nuestros servicios</h2>
 <div class="cards" id="cards">
 
-  <article class="tarjeta">
-<img src="img/imagen1.jpg" alt="Servicio 1">
-<h3>titulo del servicio 1</h3>
-<p>Descripción breve del servicio 1.</p>
-<a href="servicios.html" class="boton">Ver más</a>
-
-  </article>
-
-<article class="tarjeta">
-<img src="img/imagen2.jpg" alt="Servicio 2">
-<h3>titulo del servicio 2</h3>
-<p>Descripción breve del servicio 2.</p>
-<a href="servicios.html" class="boton">Ver más</a>
-
-  </article>
-
 </div>
 </section>
+
 
 <section class="galeria">
     <h2> Galería</h2>
@@ -67,6 +34,16 @@
         <img src="img/imagen3.jpg" alt="Describe la foto 3">
     </div>
 </section>
+
+
+<div class="carrusel">
+  <img class="slide activa" src="img/imagen2.jpg" alt="Imagen 1">
+  <img class="slide" src="img/imagen3.jpg" alt="Imagen 2">
+  <img class="slide" src="img/imagen1.jpg" alt="Imagen 3">
+<button id="anterior" type="button">Anterior</button>
+<button id="siguiente" type="button">Siguiente</button>
+
+</div>
 
 <section class="preguntas">
 <h2> Preguntas frecuentes</h2>
@@ -91,18 +68,8 @@
 
 </main>
 
-<footer>
-  <div>
-    <p><strong>Mi sitio</strong></p>
-    <p> telefono: 123-456-7890 . correo: info@misitio.com</p>
-  </div>
-  <ul class="redes">
-    <li><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a></li>
-    <li><a href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a></li>
-    <li><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
-  </ul>
- <p>&copy; 2026 Mi sitio.</p>
-</footer>
+<?php include "footer.php"; ?>
+
 
 <script src="js/main.js" defer ></script>
 

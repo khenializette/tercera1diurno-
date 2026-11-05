@@ -173,6 +173,13 @@ img { max-width: 100%; height: auto; }
 .menu.abierto ul { flex-direction: column; gap: 0; padding-top: 1rem; }
 
 
+.slide {
+    display: none;
+}
+
+.slide.activa {
+    display: block;
+}
 
 
 
