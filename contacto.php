@@ -38,7 +38,7 @@
 
     <p id="mensajes"></p>
 
-    <button type="submit">Enviar formulario de contacto</button>
+    <button type="submit">Enviar </button>
 
 </form>
 
