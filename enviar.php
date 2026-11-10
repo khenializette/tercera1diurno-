@@ -3,7 +3,7 @@ $errores = [];
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $nombre = trim($_POST["nombre"] ?? "");
-    $email = trim($_POST["email"] ?? "");
+    $email = trim($_POST["correo"] ?? "");
     $mensaje = trim($_POST["mensaje"] ?? "");
 
     $errores = [];
